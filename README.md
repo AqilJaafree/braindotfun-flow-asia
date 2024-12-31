@@ -48,7 +48,7 @@ Mit
 
 
 ### Project Structure
-
+```bash
 ├── app/
 │   ├── api/
 │   │   └── generate-meme/
@@ -64,7 +64,7 @@ Mit
 └── lib/
     └── claude.ts
 
-    
+
 ### Installation & Setup
 
 1. Clone the repository:
