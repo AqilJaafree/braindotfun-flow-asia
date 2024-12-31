@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center">
            <Link href="/" className="flex items-center gap-2">
              <Image 
-               src="/brain-logo.jpg" // Place your image in public folder
+               src="/BrainDotFun.jpg" // Place your image in public folder
                alt="Brain Logo"
                width={40}
                height={40}
