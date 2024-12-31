@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brain.Fun - Bridging Research with Web3
+
+Brain.Fun is a decentralized platform that transforms scientific research papers into tradeable tokens with AI-generated meme descriptions. We aim to make science more accessible and engaging while providing researchers with new monetization opportunities.
+
+## Project Overview
+
+### Smart Contracts
+- Factory Address: `0xd18D1D3a8912c054BC0f2DCFb68B9795cC58DD6F` (Flow EVM Testnet)
+- Functionality: Create and manage research-based ERC20 tokens
+
+### Contract code
+https://github.com/AqilJaafree/braindotfun-contract-flow-asia
+
+### Features
+For Researchers
+
+Upload research papers (PDF)
+Get AI-generated meme descriptions
+Create custom ERC20 tokens
+Set token prices and manage sales
+
+For Users
+
+Browse research papers
+Purchase research tokens
+
+### Frontend Application 
+- Modern UI built with Next.js 14 and TypeScript
+- AI integration with Claude for meme description generation
+- Web3 wallet integration for token transactions
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js
+- MetaMask or compatible Web3 wallet
+- Flow EVM Testnet account
 
+### Contribute
+Fork the repository
+Create feature branch (git checkout -b feature/amazing-feature)
+Commit changes (git commit -m 'Add amazing feature')
+Push to branch (git push origin feature/amazing-feature)
+Open Pull Request
+
+### License 
+Mit 
+
+
+### Project Structure
+
+├── app/
+│   ├── api/
+│   │   └── generate-meme/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   ├── TokenCard.tsx
+│   ├── TokenList.tsx
+│   └── UploadForm.tsx
+├── contracts/
+│   └── abi.ts
+└── lib/
+    └── claude.ts
+
+    
+### Installation & Setup
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/yourusername/braindotfun.git
+cd braindotfun
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
